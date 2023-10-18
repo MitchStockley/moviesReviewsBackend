@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import movies from './api/movies.route.js';
 
-const app = express(); //create servers
+const app = express(); //create servers //
 
 app.use(cors());
 
